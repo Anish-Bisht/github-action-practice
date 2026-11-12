@@ -1,0 +1,18 @@
+# Workflow
+name: Test
+
+on:
+  
+  workflow_dispatch: 
+
+# Jobs
+jobs:
+  say-hello:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: say hello to everyone
+        run: echo "Hello Dosto"
+
+# Steps
+
+# Actions
